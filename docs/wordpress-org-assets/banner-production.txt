@@ -1,0 +1,36 @@
+WPFORMS AUTOCOMPLETE 1.0.0 - UNPUBLISHED DIRECTORY ARTWORK
+
+Same family layout as Gravity, Ninja and Formidable, with a distinct purple
+background. Banner title: Address Autocomplete for WPForms.
+Icon background: #7953CB. Geometry is unchanged from the existing sibling SVG;
+only background color and accessible title/description were adapted.
+
+Banner created using the built-in image_gen tool, with the existing Gravity
+banner as its edit reference. This is an AI-rendered derivative, not a
+pixel-identical UI screenshot. Final title and Google Maps attribution were
+visually checked. The generated master is retained alongside this record in
+the workspace artifact directory. Standard exports are 1544x500 and 772x250.
+The narrow extra bottom strip was cropped before standard-size export.
+Icon exports are 256x256 and 128x128, rendered from the native SVG.
+
+Prompt:
+Use case: text-localization and precise background-color edit.
+Asset type: WordPress.org wide plugin banner, final aspect ratio 1544:500.
+Input image 1 is the edit target: the existing Gravity Forms sibling banner.
+Create the matching WPForms banner. Change ONLY the colored background from
+blue to a rich purple gradient, approximately #7953CB on the left to #4C278A at
+the right, and change the large white title to exactly two centered lines:
+"Address Autocomplete"
+"for WPForms"
+Keep the same clean typography, title location, scale and layout. Keep the full
+address input and suggestions panel on the right, its wording, Google Maps
+attribution, pale selection highlight and shadows unchanged. Preserve the
+original wide 3.088:1 proportions and edge-to-edge layout. No extra logos,
+labels, borders, watermarks, no WPGeo or Logical prefix. Do not add padding or
+crop the Google Maps attribution.
+
+Canonical staging location: docs/wordpress-org-assets/ in the WPForms free
+plugin repository, matching the sibling Ninja layout. These listing-only files
+are excluded from the runtime ZIP by the existing package allowlist. No ZIP
+rebuild is necessary: the screenshot-complete submission ZIP remains unchanged.
+No SVN folder, commit, push, release or WordPress.org upload was performed.

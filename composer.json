@@ -1,0 +1,36 @@
+{
+	"name": "oddlylogical/logical-address-autocomplete-for-wpforms",
+	"type": "wordpress-plugin",
+	"description": "Standalone Address autocomplete for WPForms",
+	"keywords": [
+		"wordpress",
+		"formidable",
+		"autocomplete",
+		"google-places"
+	],
+	"homepage": "https://wpgeoforms.com/",
+	"license": "GPL-3.0-or-later",
+	"support": {
+		"issues": "https://wpgeoforms.com/support"
+	},
+	"config": {
+		"github-protocols": [
+			"https"
+		],
+		"prepend-autoloader": false,
+		"platform": {
+			"php": "7.4.0"
+		}
+	},
+	"require": {
+		"php": ">=7.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"WPFormsGeolocationAutocomplete\\": "src/"
+		}
+	},
+	"scripts": {
+		"test": "php tests/contracts.php"
+	}
+}

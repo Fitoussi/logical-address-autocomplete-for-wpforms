@@ -1,0 +1,91 @@
+/* Scoped native builder controls; no global WPForms styles. */
+.wpfrmgeoac-field-options .wpforms-field-option-row {
+  margin-bottom: 16px;
+}
+.wpfrmgeoac-field-options label {
+  display: block;
+  margin-bottom: 6px;
+}
+.wpfrmgeoac-field-options select,
+.wpfrmgeoac-field-options input[type=text] {
+  width: 100%;
+}
+.wpfrmgeoac-field-options .choices__list--dropdown {
+  z-index: 100;
+}
+.wpfrmgeoac-field-options .choices__inner {
+  min-height: 40px;
+}
+.wpfrmgeoac-field-options p {
+  line-height: 1.6;
+}
+
+.autocomplete-type-collection-note {
+  display: block;
+  color: #b32d2e !important;
+  margin-top: 6px;
+}
+.autocomplete-type-collection-note[hidden] {
+  display: none !important;
+}
+
+/* Retain native geometry, but clearly distinguish unavailable field previews. */
+#wpforms-builder .wpforms-add-fields-button.wpfrmgeoac-promo {
+  opacity: 0.5;
+  filter: saturate(0.3);
+}
+#wpforms-builder .wpforms-add-fields-button.wpfrmgeoac-promo:hover, #wpforms-builder .wpforms-add-fields-button.wpfrmgeoac-promo:focus-visible {
+  opacity: 0.65;
+}
+
+/* Only fields containing our native option group need a fourth tab slot. */
+.wpforms-field-option:has(> .wpforms-field-option-group-wpfrmgeoac) {
+  --wpfrmgeoac-tabs-offset: 0px;
+}
+.wpforms-field-option:has(> .wpforms-field-option-group-wpfrmgeoac) .wpforms-field-option-group-toggle {
+  box-sizing: border-box;
+  font-size: 12.5px;
+  padding-inline: 4px;
+}
+.wpforms-field-option:has(> .wpforms-field-option-group-wpfrmgeoac) .wpforms-field-option-group-basic > .wpforms-field-option-group-toggle {
+  inset-inline-start: calc(115px + var(--wpfrmgeoac-tabs-offset));
+  width: 65px;
+}
+.wpforms-field-option:has(> .wpforms-field-option-group-wpfrmgeoac) .wpforms-field-option-group-advanced > .wpforms-field-option-group-toggle {
+  inset-inline-start: calc(180px + var(--wpfrmgeoac-tabs-offset));
+  width: 78px;
+}
+.wpforms-field-option:has(> .wpforms-field-option-group-wpfrmgeoac) .wpforms-field-option-group-wpfrmgeoac > .wpforms-field-option-group-toggle {
+  inset-inline-start: calc(258px + var(--wpfrmgeoac-tabs-offset));
+  width: 149px;
+}
+.wpforms-field-option:has(> .wpforms-field-option-group-wpfrmgeoac) .wpforms-field-option-group-conditionals > .wpforms-field-option-group-toggle {
+  inset-inline-start: calc(407px + var(--wpfrmgeoac-tabs-offset));
+  width: 88px;
+}
+
+.wpforms-panel-sidebar-closed .wpforms-field-option:has(> .wpforms-field-option-group-wpfrmgeoac) {
+  --wpfrmgeoac-tabs-offset: -400px;
+}
+
+.wpfrmgeoac-dialog {
+  border: 1px solid #d9e2ec;
+  border-radius: 8px;
+  color: #243746;
+  max-width: 480px;
+  padding: 28px;
+  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.2);
+}
+.wpfrmgeoac-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.4);
+}
+.wpfrmgeoac-dialog h2 {
+  font-size: 21px;
+}
+.wpfrmgeoac-dialog p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+.wpfrmgeoac-dialog .button {
+  margin-right: 10px;
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Address Autocomplete for WPForms</title>
+  <desc id="desc">A white location pin beside three address suggestion lines on a purple background.</desc>
+  <path fill="#7953CB" d="M0 0h256v256H0z"/>
+  <rect x="124" y="69" width="96" height="120" rx="15" fill="#fff" fill-opacity=".10" stroke="#fff" stroke-opacity=".24" stroke-width="2"/>
+  <rect x="134" y="81" width="76" height="34" rx="8" fill="#fff" fill-opacity=".18"/>
+  <rect x="142" y="94" width="60" height="8" rx="4" fill="#fff"/>
+  <rect x="140" y="128" width="64" height="8" rx="4" fill="#fff"/>
+  <rect x="140" y="161" width="48" height="8" rx="4" fill="#fff"/>
+  <path fill="#fff" fill-rule="evenodd" d="M75 62c-21 0-37 16-37 37 0 29 37 75 37 75s37-46 37-75c0-21-16-37-37-37zm0 22a15 15 0 1 0 0 30 15 15 0 0 0 0-30z"/>
+</svg>

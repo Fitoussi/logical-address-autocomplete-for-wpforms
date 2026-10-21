@@ -1,0 +1,25 @@
+Logical Address Autocomplete for WPForms - directory screenshots
+
+Store numbered PNGs in assets/screenshots/; copy them to the WordPress.org SVN
+assets directory only when publication is explicitly authorized. Nothing has
+been uploaded by this preparation task.
+
+screenshot-1.png: Dedicated Address suggestions.
+Source: Screenshot 2026-10-20 at 15.47.10.png (owner-supplied original).
+
+screenshot-2.png: Native Address component filling; paid WPForms required.
+Source: Screenshot 2026-10-20 at 15.50.02.png (owner-supplied original).
+
+screenshot-3.png: Dedicated Address field options.
+Source: screenshots-edited/dedicated-address-submit.png in the workspace
+wpforms-free-submission-1.0.0-20261020 artifacts. Owner-approved AI-edited copy:
+button says Submit; lower-resolution re-render, not pixel-identical to original.
+
+screenshot-4.png: Native Address field options; paid WPForms required.
+Source: screenshots-edited/native-address-submit.png in the same workspace
+artifact folder. Owner-approved AI-edited copy with Submit button label.
+
+screenshot-5.png: Global Address Autocomplete settings.
+Source: Screenshot 2026-10-20 at 15.57.23.png (owner-supplied replacement).
+Shows the placeholder YOUR_GOOGLE_MAPS_API_KEY, not a credential.
+The earlier unredacted Settings screenshot was never copied into the plugin.

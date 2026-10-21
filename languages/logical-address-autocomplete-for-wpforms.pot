@@ -1,0 +1,635 @@
+# Copyright (C) 2026 Eyal Fitoussi
+# This file is distributed under the GPL-3.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Logical Address Autocomplete for WPForms 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/logical-address-autocomplete-for-wpforms\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-21T00:40:35+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: logical-address-autocomplete-for-wpforms\n"
+
+#. Plugin Name of the plugin
+#: logical-address-autocomplete-for-wpforms.php
+msgid "Logical Address Autocomplete for WPForms"
+msgstr ""
+
+#. Description of the plugin
+#: logical-address-autocomplete-for-wpforms.php
+msgid "Google Places suggestions for a dedicated Address field and native WPForms Address fields. Includes country, language, result-type and location-bias controls. Requires your own Google API key."
+msgstr ""
+
+#. Author of the plugin
+#: logical-address-autocomplete-for-wpforms.php
+msgid "Eyal Fitoussi"
+msgstr ""
+
+#. Author URI of the plugin
+#: logical-address-autocomplete-for-wpforms.php
+msgid "https://www.wpgeo.com"
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:47
+msgid "Free"
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:48
+msgid "Geolocation for WPForms"
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:59
+msgid "Address autocomplete"
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:59
+msgid "Google Places suggestions in a dedicated single-line Address field."
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:59
+msgid "Country, result-type and bounds controls, global region and language, and optional required suggestion selection."
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:60
+msgid "Native Address component filling"
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:60
+msgid "Populate street, city, state, postal code and country directly from a selected suggestion."
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:60
+msgid "Requires a WPForms edition providing the native Address field. Older premium releases require a connected Geocoder for this workflow; check your premium version."
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:61
+msgid "Per-field suggestion language"
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:61
+msgid "Choose a different language for individual Address fields."
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:61
+msgid "Premium support depends on the version. Older releases use the global language setting instead."
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:62
+msgid "Interactive form maps"
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:62
+msgid "Display and select locations on connected maps."
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:62
+msgid "Available in Geolocation for WPForms."
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:63
+msgid "Geocoder and connected location fields"
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:63
+msgid "Connect addresses, coordinates, maps and dynamic field values."
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:63
+msgid "Requires premium configuration and the relevant Google services."
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:64
+msgid "Locator and Reset controls"
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:64
+msgid "Request the visitor’s location or clear a connected location."
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:64
+msgid "Browser location requires permission; optional IP location requires a provider."
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:65
+msgid "Coordinate inputs"
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:65
+msgid "Collect latitude and longitude in your forms."
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:65
+msgid "A dedicated premium field."
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:66
+msgid "Directions and travel calculations"
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:66
+msgid "Connect an origin and destination for directions, distance and duration."
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:66
+msgid "Current premium provides Directions and Directions Panel fields."
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:67
+msgid "Mashup maps"
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:67
+msgid "Display saved entry locations together on a map."
+msgstr ""
+
+#: src/Admin/Dashboard/Features.php:67
+msgid "Requires paid WPForms entry storage and premium geolocation data."
+msgstr ""
+
+#: src/Admin/Dashboard/Loader.php:68
+#: src/Admin/Dashboard/Loader.php:189
+#: src/Admin/Settings.php:37
+#: src/Admin/Settings.php:54
+#: src/Features/Form/Admin/FormEditor.php:137
+msgid "Address Autocomplete"
+msgstr ""
+
+#: src/Admin/Dashboard/Loader.php:86
+#: src/Admin/Dashboard/Loader.php:177
+msgid "Overview"
+msgstr ""
+
+#: src/Admin/Dashboard/Loader.php:87
+msgid "Settings"
+msgstr ""
+
+#: src/Admin/Dashboard/Loader.php:88
+msgid "Docs"
+msgstr ""
+
+#: src/Admin/Dashboard/Loader.php:145
+msgid "Need more than address autocomplete?"
+msgstr ""
+
+#: src/Admin/Dashboard/Loader.php:147
+msgid "Explore maps, current-location detection, connected fields and directions with Geolocation for WPForms."
+msgstr ""
+
+#: src/Admin/Dashboard/Loader.php:151
+msgid "Explore features"
+msgstr ""
+
+#: src/Admin/Dashboard/Loader.php:153
+msgid "View packages"
+msgstr ""
+
+#: src/Admin/Dashboard/Loader.php:178
+msgid "Compare Packages"
+msgstr ""
+
+#: src/Admin/Dashboard/Loader.php:179
+msgid "Help"
+msgstr ""
+
+#: src/Admin/Dashboard/Loader.php:180
+msgid "More Plugins"
+msgstr ""
+
+#: src/Admin/Dashboard/Loader.php:207
+msgid "Less typing. Better addresses."
+msgstr ""
+
+#: src/Admin/Dashboard/Loader.php:208
+msgid "Add the Address field from the Geolocation group, or enable autocomplete on a native Address field if your WPForms edition provides it."
+msgstr ""
+
+#: src/Admin/Dashboard/Loader.php:229
+msgid "Maps, geocoding and location workflows for Formidable Forms."
+msgstr ""
+
+#: src/Admin/Dashboard/Loader.php:234
+msgid "Build location-based searches and directories for your WordPress site."
+msgstr ""
+
+#: src/Admin/Dashboard/Loader.php:239
+msgid "Maps, geocoding, dynamic fields, directions, nearby locations and more for Gravity Forms."
+msgstr ""
+
+#: src/Admin/Dashboard/Loader.php:244
+msgid "Turn Gravity Forms entries into searchable directories, listings and customer portals—with field filters, proximity search, maps and flexible result layouts."
+msgstr ""
+
+#: src/Admin/Dashboard/Loader.php:249
+msgid "Bring address, map and location workflows to Ninja Forms."
+msgstr ""
+
+#: src/Admin/Dashboard/Loader.php:254
+msgid "Add address autocomplete, maps, coordinates and directions to WPForms."
+msgstr ""
+
+#: src/Admin/Dashboard/Loader.php:259
+msgid "Add proximity searches and interactive maps to your WP Job Manager job board."
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:22
+msgid "For WPForms"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:27
+#: src/Admin/Dashboard/views/dashboard.php:190
+msgid "Open Settings"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:28
+msgid "Explore Geolocation"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:29
+msgid "Explore Plugins"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:32
+msgid "Product overview sections"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:43
+msgid "Your installed package"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:45
+msgid "Modern Google Places autocomplete, included free. Collect addresses with a dedicated single-line field or native Address autofill, tailor suggestions to your audience, and require a selection when it matters."
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:47
+msgid "Explore my features"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:51
+msgid "See what else is available"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:53
+msgid "Location tools require your own Google API configuration. Google service usage and billing are separate."
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:56
+msgid "Installed package"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:58
+msgid "Badges identify included tools. Follow their setup guides to put them to work."
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:59
+msgid "Configuration & settings"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:70
+#: src/Admin/Dashboard/views/dashboard.php:78
+msgid "Included in your package"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:70
+msgid "Take your forms further"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:71
+msgid "Your available building blocks. Choose a tool and open its guide."
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:71
+msgid "Other WPForms packages add these capabilities. Explore the demos or compare packages to find the right fit."
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:78
+msgid "Available in other packages"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:85
+msgid "Setup & documentation"
+msgstr ""
+
+#. translators: %s: Comma-separated package names that include this feature.
+#: src/Admin/Dashboard/views/dashboard.php:90
+#, php-format
+msgid "Included in: %s"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:110
+msgid "Choose the tools your next project needs"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:111
+msgid "Geolocation for WPForms adds connected maps, geocoding, coordinates, locator controls and directions. It is a separate alternative plugin, not an add-on to activate alongside free."
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:112
+#: src/Admin/Dashboard/views/dashboard.php:165
+msgid "View packages & pricing"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:117
+msgid "Find the right package for your project"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:118
+msgid "Your installed free plugin is highlighted. Premium is an alternative plugin, not an add-on to activate alongside free. Saved settings are retained. This comparison describes the latest premium implementation; older releases may differ. Test your forms before switching."
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:119
+msgid "On narrow screens, scroll the comparison horizontally to see every package."
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:120
+msgid "Feature comparison — scroll to see all columns"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:122
+msgid "WPForms package feature comparison"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:125
+msgid "Feature"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:130
+msgid "Installed"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:144
+msgid "Included"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:144
+msgid "Not included"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:164
+msgid "Google API usage and any required form-builder editions or add-ons are separate. Optional integrations may require other plugins. Feature checks show package contents, not setup or license status."
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:169
+msgid "More tools for your WordPress site"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:170
+msgid "Explore our other plugins. These descriptions are bundled locally; nothing is downloaded or installed from this page."
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:177
+#: src/Features/Form/Admin/FormEditor.php:303
+msgid "Learn more"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:183
+msgid "From installed to working"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:185
+msgid "Activate WPForms and open this plugin’s native Settings screen."
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:186
+msgid "Enter your Google browser API key. Enable Maps JavaScript API and Places API (New), configure billing, and restrict the key to your website."
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:188
+msgid "Save your form before previewing. Test the complete visitor flow."
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:191
+msgid "Google API setup guide"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:194
+msgid "Something not working?"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:195
+msgid "Check that autocomplete is enabled, then verify the browser API key, required Google services, billing and key restrictions."
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:196
+msgid "Autocomplete fills an address after a visitor selects a suggestion. This free plugin does not provide current-location detection, manual geocoding or connected dynamic location fields."
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:197
+msgid "Include the plugin version, field type and steps to reproduce when asking for help. Never share API keys or other credentials in a public post."
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:199
+msgid "Browse documentation"
+msgstr ""
+
+#: src/Admin/Dashboard/views/dashboard.php:200
+msgid "View support options"
+msgstr ""
+
+#: src/Admin/Settings.php:54
+msgid "Use your own browser API key with Maps JavaScript API and Places API (New) enabled. Configure billing and restrict the key to your website. No server key is required."
+msgstr ""
+
+#: src/Admin/Settings.php:59
+msgid "Browser API Key"
+msgstr ""
+
+#: src/Admin/Settings.php:64
+msgid "Region Code"
+msgstr ""
+
+#: src/Admin/Settings.php:67
+msgid "A two-letter region code influences results; field country restrictions limit suggestions."
+msgstr ""
+
+#: src/Admin/Settings.php:71
+#: src/Features/Form/Admin/FormEditor.php:146
+msgid "Language"
+msgstr ""
+
+#. translators: %s: Plugin name.
+#: src/Admin/SetupNotice.php:95
+#, php-format
+msgid "%s is ready to configure."
+msgstr ""
+
+#: src/Admin/SetupNotice.php:101
+msgid "Add your Google API key, then enable autocomplete in your form's field options."
+msgstr ""
+
+#: src/Admin/SetupNotice.php:104
+msgid "Set up autocomplete"
+msgstr ""
+
+#: src/Admin/SetupNotice.php:105
+msgid "View plugin overview"
+msgstr ""
+
+#: src/Admin/SetupNotice.php:109
+msgid "Dismiss"
+msgstr ""
+
+#: src/Admin/SetupNotice.php:136
+msgid "You do not have permission to dismiss this notice."
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:42
+msgid "Map"
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:43
+msgid "Directions"
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:44
+msgid "Coordinates"
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:45
+msgid "Locator Button"
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:57
+msgid "Geolocation"
+msgstr ""
+
+#. translators: %s: Name of a premium feature shown only as a preview.
+#: src/Features/Form/Admin/FormEditor.php:113
+#, php-format
+msgid "%s — premium feature preview"
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:117
+msgid "Available in Geolocation for WPForms — learn more"
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:140
+msgid "Enable autocomplete"
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:141
+msgid "Require a suggestion selection"
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:142
+msgid "Selection alert message"
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:143
+msgid "Result types (up to 5)"
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:144
+msgid "Restrict to countries (up to 5)"
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:152
+msgid "Use global language"
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:159
+msgid "Location bias"
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:162
+msgid "Disabled"
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:163
+msgid "Proximity"
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:164
+msgid "Area bounds"
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:167
+msgid "Latitude"
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:168
+msgid "Longitude"
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:169
+msgid "Radius (meters, up to 50,000)"
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:170
+msgid "Southwest point (latitude, longitude)"
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:171
+msgid "Northeast point (latitude, longitude)"
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:172
+msgid "Restrict results to the area bounds"
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:222
+msgid "Require visitors to select an address from the suggestions."
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:223
+msgid "Choose up to 5 place types, or leave empty for all types."
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:224
+msgid "Prioritize suggestions near a specified location."
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:225
+msgid "Choose the suggestion language for this field, or use the global language setting."
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:226
+msgid "Limit suggestions to the configured area instead of only prioritizing nearby results."
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:230
+msgid "WPForms’ official Geolocation add-on currently handles this field. Turn off its autocomplete before using these settings. This plugin will not initialize a second autocomplete on the same field."
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:278
+msgid "Cities and Regions must each be used alone; selecting one replaces your other choices."
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:301
+msgid "Available in Geolocation for WPForms"
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:302
+msgid "This is a premium feature preview. It cannot add a field or change your form."
+msgstr ""
+
+#: src/Features/Form/Admin/FormEditor.php:304
+msgid "Close"
+msgstr ""
+
+#: src/Features/Form/Fields/Address/Field.php:25
+msgid "Address"
+msgstr ""
+
+#: src/Features/Form/Fields/Address/Settings.php:28
+msgid "Please select an address from the suggested results."
+msgstr ""
+
+#: src/Helpers/ReferenceData.php:496
+msgid "Cities"
+msgstr ""
+
+#: src/Helpers/ReferenceData.php:496
+msgid "Regions"
+msgstr ""
+
+#: src/Loader.php:69
+msgid "Address Autocomplete for WPForms is paused because Geolocation for WPForms is active. Deactivate the free plugin. Saved fields and settings are retained. Autocomplete options depend on your premium version; check that version and test your forms when switching."
+msgstr ""
+
+#: src/Loader.php:80
+msgid "Address Autocomplete requires WPForms Lite or paid WPForms 1.9.4.1 or newer."
+msgstr ""

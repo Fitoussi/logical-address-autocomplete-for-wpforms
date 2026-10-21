@@ -1,0 +1,9 @@
+{
+	"folders": [{ "name": "logical-address-autocomplete-for-wpforms", "path": "." }],
+	"settings": {
+		"files.exclude": { "**/.DS_Store": true },
+		"search.exclude": { "**/node_modules": true, "**/tools/vendor": true, "**/dist": true },
+		"editor.insertSpaces": false,
+		"editor.detectIndentation": false
+	}
+}

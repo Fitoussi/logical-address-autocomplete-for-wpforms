@@ -1,0 +1,13 @@
+* text=auto
+*.php text eol=lf
+*.js text eol=lf
+*.scss text eol=lf
+*.css text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.png binary
+*.jpg binary
+*.zip binary
+
+# Preserve bundled third-party source bytes, as in the Gravity standalone.
+assets/js/editor/vendor/choices.js -text
