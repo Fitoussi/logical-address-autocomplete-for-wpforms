@@ -69,49 +69,45 @@ The overview is available under WPForms > Address Autocomplete. If WPForms is un
 
 == Frequently Asked Questions ==
 
+= Which fields support address autocomplete? =
+
+You can enable address autocomplete on the plugin's dedicated single-line Address field in WPForms Lite or paid WPForms. You can also enable it on WPForms' native multi-part Address field with a paid edition that provides it.
+
 = Are all the autocomplete controls included free? =
 
-Yes. All autocomplete controls described above are included free. WPForms and your own Google Maps API key are required. Native Address autofill needs a paid WPForms edition that provides that field.
+Yes! All the address autocomplete controls described above are included in the free plugin.
 
-= Does this work with WPForms Lite? =
+= Can I customize the address suggestions? =
 
-Yes. The dedicated single-line Address field works with Lite. Native multi-part Address integration requires a paid WPForms edition providing that field.
+Yes! You can limit suggestions to selected countries, choose the types of places to suggest, and prioritize suggestions around a location or area. You can also set a default language and choose a different language for individual fields.
 
-= Can I use WPForms' native Address field? =
+= Can I require visitors to select an address suggestion? =
 
-Yes, if your paid WPForms edition provides it. Enable autocomplete in its Address Autocomplete tab to fill its available address components. The dedicated single-line Address field does not depend on that native field.
-
-= What happens if someone types an address without selecting a suggestion? =
-
-If required suggestion selection is enabled, newly typed, unselected text is cleared when the visitor leaves the field, and your configured message prompts them to select a suggestion. The visitor can retry. Without that option, manually typed addresses are allowed. WPForms' Required setting separately controls whether the field can be left empty.
-
-= What is the difference between region and country restriction? =
-
-The global region preference influences Google's results. A field's country restriction limits suggestions to the selected countries. A field's language setting can override the global language.
+Yes! You can require visitors to choose an address from the suggestions and customize the message that guides them to make a selection. Visitors can retry after unselected text is cleared, or enter addresses manually when this option is off.
 
 = Can I use it on AJAX or multi-page forms? =
 
-The plugin handles supported WPForms rendering and dynamically displayed autocomplete fields. Multi-page, conditional and repeater workflows depend on the features available in your WPForms edition. Test your form, theme and integrations before going live.
+The plugin supports WPForms rendering and dynamically displayed autocomplete fields. Multi-page, conditional and repeater forms use the features available in your WPForms edition.
 
-= Do I need a server API key? =
+= How do I switch to the premium plugin? =
 
-Only your Google Maps browser API key is needed. Configure billing and restrict the key to your website.
-
-= What happens if I activate Geolocation for WPForms? =
-
-Deactivate free when switching to Geolocation for WPForms. If both are active, free pauses its overlapping fields and integrations. Saved fields and settings are retained.
+Deactivate the free plugin when switching to [Geolocation for WPForms](https://wpgeoforms.com/pricing/). Your saved fields and settings stay in place. If both are active, the free plugin pauses its overlapping fields and integrations.
 
 = Can I also use WPForms' official Geolocation add-on? =
 
-The free plugin skips native Address fields where the official add-on's autocomplete is enabled. Do not enable both implementations on the same field. Separate Google settings and API loading still need compatibility testing on your site.
+Yes! You can use the official add-on for native Address fields. This plugin leaves fields with the official add-on's autocomplete enabled to that add-on. Check that the two plugins' Google API settings work together on your site.
+
+= Do I need a server API key? =
+
+You can use your Google Maps browser API key. Enable billing and restrict the key to your website.
 
 = Is a plugin account or license required? =
 
-No plugin account or license is required. You do need your own Google Cloud account and browser API key, as described above. A paid WPForms edition is only needed for host features such as the native Address field.
+You can use the plugin without creating a plugin account or buying a license. You'll need your own Google Cloud account and browser API key for Google's address suggestions.
 
 = Where can developers find the source code? =
 
-Readable JavaScript and SCSS sources and JavaScript source maps are included in the plugin. Development asset builds use esbuild and Sass. From a development checkout containing the build configuration and dependency lockfile, run `npm ci` and `npm run build` to rebuild assets. These tools are not required to use the plugin.
+Readable JavaScript and SCSS sources are included in the plugin. The full development project, build configuration and dependency lockfile are available on [GitHub](https://github.com/Fitoussi/logical-address-autocomplete-for-wpforms). To rebuild assets, download the repository, install Node.js/npm, then run `npm ci` and `npm run build` (esbuild and Sass). These tools are not required to use the plugin.
 
 Includes [Choices.js 11.1.0](https://github.com/Choices-js/Choices/tree/v11.1.0), MIT licensed; readable distribution: assets/js/editor/vendor/choices.js; license: assets/licenses/choices.txt.
 
